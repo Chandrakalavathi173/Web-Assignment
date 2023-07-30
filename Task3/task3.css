@@ -1,0 +1,36 @@
+.container{
+    min-height:98% ;
+    min-width: 99%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    border: 1px solid black;
+    background-color: rgb(162, 229, 229);
+}
+img{
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 10px;
+    border: 1px solid black;
+}
+#p1{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    max-width: 30%;
+    margin: 15px;
+    padding: 3px;
+    border: 2px dashed black;
+}
+#p2{
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    border: 2px dashed black;
+    max-width: 20%;
+    padding: 3px;
+}
